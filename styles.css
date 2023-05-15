@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(212, 45%, 89%);
+}
+.container{
+  width: 320px;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding-top: 15px;
+}
+.image-cont{
+  text-align: center;
+}
+img{
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+}
+.text{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 290px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.big-text{
+  font-size: x-large;
+  font-weight: 700;
+}
+.small-text{
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+.attribution{ 
+  font-size: 11px; text-align: center;
+}
+
+.attribution a{ 
+  color: hsl(228, 45%, 44%); 
+}
